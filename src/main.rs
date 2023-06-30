@@ -8,7 +8,7 @@ fn main() {
         let name = name.to_str().unwrap();
 
         match &name[name.len()-4..] {
-            ".jpg" => println!("Not finished, runned into a lot of specification details that would not teach me anythin new from PNG, but waste a lot of time"),
+            ".jpg" => println!("Nope :)"),
             ".png" => {
                 let img= PNGImage::from_path(name);
                 //println!("{:?}", img.header);
